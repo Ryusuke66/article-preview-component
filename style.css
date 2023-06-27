@@ -21,7 +21,7 @@ body {
     height: 280px;
     display: grid;
     grid-template-columns: 40% 60%;
-
+    box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
 .left {
