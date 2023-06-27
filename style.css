@@ -225,7 +225,6 @@ body:hover .attribution {
         justify-content: flex-start;
         padding: 0px 0px 0px 40px;
         font-size: 12px;
-        opacity: 1;
     }
 
     .share-popup::after {
