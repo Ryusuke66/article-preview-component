@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-columns: 40% 60%;
     box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 .left {
@@ -207,7 +208,7 @@ body:hover .attribution {
     }
 
     .profile {
-        margin-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     .share {
@@ -216,7 +217,7 @@ body:hover .attribution {
 
     .share-popup {
         height: 60px;
-        bottom: -10px;
+        bottom: 0px;
         right: -39px;
         width: calc(100%  + 78px);
         border-top-left-radius: 0;
@@ -224,6 +225,7 @@ body:hover .attribution {
         justify-content: flex-start;
         padding: 0px 0px 0px 40px;
         font-size: 12px;
+        opacity: 1;
     }
 
     .share-popup::after {
